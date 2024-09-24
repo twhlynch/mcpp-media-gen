@@ -1,0 +1,11 @@
+.DS_Store
+
+*.app
+*.exe
+
+video-mc
+obj-mc
+
+*.mp4
+examples/*.rgb
+examples/*.obj
