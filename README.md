@@ -28,11 +28,13 @@ Run `./video-mc filename.rgb width height scale frame_rate`
 
 `./video-mc examples/rick-roll.rgb 640 480 16 24`
 
-<img src="examples/rick-roll.png" alt="Rick Roll" width="200"/>
-
 `./video-mc examples/bad-apple.rgb 320 240 5 30`
 
-<img src="examples/bad-apple.png" alt="Bad Apple" width="200"/>
+<img src="examples/rick-roll.png" alt="Rick Roll" width="200"/><img src="examples/bad-apple.png" alt="Bad Apple" width="200"/>
+
+YouTube video:
+
+[![BAD APPLE!!](https://img.youtube.com/vi/FUt5WGvXZw0/0.jpg)](https://www.youtube.com/watch?v=FUt5WGvXZw0)
 
 ## Models
 
@@ -41,6 +43,8 @@ Run `./video-mc filename.rgb width height scale frame_rate`
 ### Usage
 
 Using blender or any other 3d modeling software, convert your model to a .obj file.
+
+Additionally, the models cannot use quads, so in Blender, triangulate the model using ctrl/command + t
 
 Run `./obj-mc filename.obj scale`
 
